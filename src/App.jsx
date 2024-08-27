@@ -78,7 +78,7 @@ const App = () => {
           className="h-[50vh] lg:h-[70vh] w-[90%] lg:w-[45%] border-emerald-950 p-2 m-2 flex flex-col justify-center items-center
           lg:bg-slate-700/80 md:bg-slate-400/50 sm:bg-slate-400/50 bg-slate-900/50 shadow-xl shadow-white"
         >
-          <div className=" justify-around items-center">
+          <div className=" justify-center items-center">
           <div className="flex justify-center items-center">
             <img
               src={iconUrl}
@@ -108,7 +108,7 @@ const App = () => {
               Description: {data.weather[0].description}
             </h1>
           </div>
-          <div className="mt-4 lg:mt-10">
+          <div className="mt-1 lg:mt-5">
             <form
               onSubmit={submitData}
               className="flex flex-col lg:flex-row items-center"
