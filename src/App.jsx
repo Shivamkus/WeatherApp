@@ -108,7 +108,7 @@ const App = () => {
               Description: {data.weather[0].description}
             </h1>
           </div>
-          <div className="mt-1 lg:mt-5">
+          <div className="mt-1 lg:mt-5 lg:mb-5">
             <form
               onSubmit={submitData}
               className="flex flex-col lg:flex-row items-center"
