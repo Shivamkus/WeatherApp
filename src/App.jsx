@@ -86,7 +86,7 @@ const App = () => {
               className="w-[50px] lg:w-[100px] bg-neutral-800/30 rounded-full"
             />
           </div>
-          <div className=" w-[full] lg:text-right h-2/3 items-end justify-around flex flex-col md:text-right">
+          <div className=" w-[full] lg:text-right h-2/3 items-end justify-center flex flex-col md:text-right">
             <h1 className="text-2xl lg:text-4xl text-white">
               {Number(data.main.temp - 273.15).toFixed(2)}°C
             </h1>
