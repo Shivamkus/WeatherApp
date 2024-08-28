@@ -69,7 +69,7 @@ const App = () => {
           bg-[url('https://images.discerningassets.com/image/upload/c_fill,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/c_fill,w_4383,h_4383/v1529088444/20180608-4W6A4325_6_7-2-Edit_b8jl00.jpg')]
           backdrop-blur-lg"
         >
-          <div className="h-full w-full  flex flex-col justify-center items-center bg-black/50">
+          <div className="h-full w-full  flex flex-col justify-center items-center lg:bg-black/60 bg-black/80 ">
           <div className="flex justify-center items-center">
             <img
               src={iconUrl}
