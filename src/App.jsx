@@ -64,11 +64,12 @@ const App = () => {
          </div>
 
         <div
-          className="h-[50vh] lg:h-[70vh] w-[90%] lg:w-[45%] border-emerald-950 p-2 m-2 flex flex-col justify-center items-center
+          className="h-[50vh] lg:h-[70vh] w-[90%] lg:w-[45%] border-emerald-950  m-2 flex flex-col justify-center items-center
           bg-cover bg-blend-color-burn
           bg-[url('https://images.discerningassets.com/image/upload/c_fill,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/c_fill,w_4383,h_4383/v1529088444/20180608-4W6A4325_6_7-2-Edit_b8jl00.jpg')]
           backdrop-blur-lg"
         >
+          <div className="h-full w-full  flex flex-col justify-center items-center bg-black/50">
           <div className="flex justify-center items-center">
             <img
               src={iconUrl}
@@ -109,6 +110,7 @@ const App = () => {
                 Get Weather
               </button>
             </form>
+          </div>
           </div>
         </div>
       </div>
