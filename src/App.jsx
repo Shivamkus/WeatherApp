@@ -48,16 +48,19 @@ const App = () => {
       <div
         className="h-screen w-screen flex flex-col lg:flex-row justify-center items-center
         bg-cover bg-[url('https://images.discerningassets.com/image/upload/c_fill,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/c_fill,w_4383,h_4383/v1529088444/20180608-4W6A4325_6_7-2-Edit_b8jl00.jpg')]"
-      > <div
+      > 
+      
+      
+      <div
           className="h-[30vh] lg:h-[70vh] w-[90%] lg:w-[25%] flex items-center justify-center shadow-2xl shadow-white p-2 m-2
           bg-slate-700/60 "
         >
          <div className="flex flex-col justify-evenly items-end h-1/2 w-10/12">
          <h2 className="text-4xl text-white flex justify-end items-end">City: {data.name}</h2>
          <h1 className="text-4xl text-white flex justify-end items-end">Country: {data.sys.country}</h1>
-         <h1 className="text-4xl text-white flex justify-end items-end">  {todaydate}</h1>
 
          <h1 className="text-4xl text-white flex justify-end items-end">  {time}</h1>
+         </div>
          </div>
 
         <div
